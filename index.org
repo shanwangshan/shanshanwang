@@ -1,0 +1,10 @@
+#+TITLE: Shanshan Wang
+#+SUBTITLE: shanshan.wang@tuni.fi
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+[[./my.png]]
+* Hey there!
+I am a PhD student in Tampere University  working in collaborating with Assitant Professor . My research interests include Audio Signal Processing and Machine Learning.
+
+* Projects
+* Publications
