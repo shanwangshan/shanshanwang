@@ -19,10 +19,10 @@
     --font-normal: 'Slabo 27px', Shadows;
     --font-headings: 'Roboto', cursive;
 
-    --font-size-1: 39.57px;
+    --font-size-1: 28.57px;
     --font-size-2: 26.86px;
     --font-size-3: 21.48px;
-    --font-size-4: 22.19px;
+    --font-size-4: 18.19px;
 
     --font-size-small: 18px;
 }
@@ -57,7 +57,7 @@ h5{font-size: var(--font-size-4);}
 
 h1 > .subtitle{
     font-size: 21.48px;
-    padding: 2vh 6vw;
+    padding: 2vh 3vw;
 }
 
 h1{
