@@ -6,30 +6,30 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 
-
 #+attr_html: :width 200px
-#+ATTR_HTML: :style float:right;margin:10px 100px 50px 50px;
+#+ATTR_HTML: :style float:right;margin:10px 100px 10px 10px;
 #+ATTR_HTML::alt image
 [[file:my_.JPG][file:my.JPG]]
 
-#+html: <p align="right"><a href="https://scholar.google.com/citations?user=K8aK11cAAAAJ&hl=en"><img src="google_scholar.png" width=40" height="70"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://github.com/shanwangshan"><img src="github.png" width=40" height="70"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/wangshanshan/"><img src="linkedin.png" width=40" height="70"></a></p>
+
+#+html: <p align="center">&emsp;&emsp;<a href="https://scholar.google.com/citations?user=K8aK11cAAAAJ&hl=en"><img src="google_scholar.png" width=30" height="50"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://github.com/shanwangshan"><img src="github.png" width=30" height="50"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/wangshanshan/"><img src="linkedin.png" width=30" height="50"></a></p
 
 
-
-* Hey ! (你好!)
+* Hey (你好)
 I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from [[https://www.tuni.fi/en][Tampere University]] . I am working in collaboration with Assitant Professor [[http://www.cs.tut.fi/~mesaros/index][Annamaria Mesaros]] and Professor [[http://www.cs.tut.fi/~tuomasv/][Tuomas Virtanen]]. During my master studies, I was working on speech separation in colloboration with Eriksholm Research Center, Oticon hearing-aids manufacturer on kuuloapu projects. My research interests include Audio Signal Processing, Deep Learning and Data Science.
+
+* Updates
+
+ - /02.2020 - present/ started PhD studies at Tampere University
+ - /04.2018 - 12.2019/ worked as research assistant in ARG
+ - /08.2017 - 12.2019/ master student at Tampere University
 
 * Publications
 
  - /S. Wang, G. Naithani, and T. Virtanen, “Low-latency deep clustering for speech separation,” in Proc. ICASSP, 2019./ [[https://github.com/shanwangshan/Low-latency_deep_clustering_for_speech_separation][*Code*]]
 
 
-
-
-
-
 #+begin_src emacs-lisp :results output :exports results
   (setq org-html-postamble "<hr><footer><a rel=\"\license\" href=\"https://www.gnu.org/licenses/gpl-3.0.html\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://www.gnu.org/graphics/lgplv3-with-text-95x42.png\" /></a><br />This <a href=\"https://github.com/shanwangshan/my_webpage\">work</a> is licensed under a <a rel=\"license\" href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</a><br />The stylesheet is modified from <a rel=\"license\" href=\"https://github.com/jessekelly881/Imagine\">Imagine.</a></a></footer>")
+(setq org-export-html-preamble nil)
 #+end_src
-
-#+RESULTS:
