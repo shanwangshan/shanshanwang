@@ -1,10 +1,35 @@
-#+TITLE: Shanshan Wang
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine_dark.css" />
+#+OPTIONS: toc:nil num:nil html-style:nil
+#+HTML_HEAD: <base target="_blank">
+#+TITLE: Shanshan Wang (王珊珊)
 #+SUBTITLE: shanshan.wang@tuni.fi
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
-[[./my.png]]
-* Hey there!
-I am a PhD student in Tampere University  working in collaborating with Assitant Professor . My research interests include Audio Signal Processing and Machine Learning.
 
-* Projects
+
+#+attr_html: :width 200px
+#+ATTR_HTML: :style float:right;margin:10px 200px 40px 80px;
+#+ATTR_HTML::alt image
+[[./my.png]]
+
+#+html: <p align="right"><a href="https://scholar.google.com/citations?user=K8aK11cAAAAJ&hl=en"><img src="google_scholar.png" width=40" height="70"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://github.com/shanwangshan"><img src="github.png" width=40" height="70"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/wangshanshan/"><img src="linkedin.png" width=40" height="70"></a></p>
+
+
+
+* Hey ! (你好!)
+I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from [[https://www.tuni.fi/en][Tampere University]] . I am working in collaboration with Assitant Professor [[http://www.cs.tut.fi/~mesaros/index][Annamaria Mesaros]] and Professor [[http://www.cs.tut.fi/~tuomasv/][Tuomas Virtanen]]. During my master studies, I was working on speech separation in colloboration with Eriksholm Research Center, Oticon hearing-aids manufacturer on kuuloapu projects. My research interests include Audio Signal Processing, Deep Learning and Data Science.
+
 * Publications
+
+ - /S. Wang, G. Naithani, and T. Virtanen, “Low-latency deep clustering for speech separation,” in Proc. ICASSP, 2019./ [[https://github.com/shanwangshan/Low-latency_deep_clustering_for_speech_separation][*Code*]]
+
+
+
+
+
+
+#+begin_src emacs-lisp :results output :exports results
+  (setq org-html-postamble "<hr><footer><a rel=\"\license\" href=\"https://www.gnu.org/licenses/gpl-3.0.html\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://www.gnu.org/graphics/gplv3-or-later-sm.png\" /></a><br />This <a href=\"https://github.com/shanwangshan/my_webpage\">work</a> is licensed under a <a rel=\"license\" href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</a><br />The stylesheet is modified from <a rel=\"license\" href=\"https://github.com/jessekelly881/Imagine\">Imagine.</a></a></footer>")
+#+end_src
+
+#+RESULTS:

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Share Tech Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier Prime&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Slabo 27px&display=swap');
+/* Variables. Feel free to edit these! */
+:root {
+    --color-primary: #028090;
+    --color-secondary: #00A896;
+
+    --color-soft-white: #FFFFF0;
+
+    --color-soft-black: #444;
+    --color-hard-black: #222;
+
+    --color-special-todo: #790604;
+    --color-special-skyb: grey;
+
+    /*--font-normal: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman";*/
+    --font-normal: 'Slabo 27px', Shadows;
+    --font-headings: 'Roboto', cursive;
+
+    --font-size-1: 39.57px;
+    --font-size-2: 26.86px;
+    --font-size-3: 21.48px;
+    --font-size-4: 22.19px;
+
+    --font-size-small: 18px;
+}
+
+/* Selection color */
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-soft-white);
+}
+
+/* Remove outer padding */
+html, body{
+    margin: 10;
+    padding: 10;
+}
+
+/* Heading styles */
+h2, h3, h4, h5, h6{
+    color: var(--color-soft-black);
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-headings)
+}
+
+/* Scaled font sizes */
+h1{font-size: var(--font-size-1);}
+h2{font-size: var(--font-size-2);}
+h3{font-size: var(--font-size-3);}
+h3{font-size: var(--font-size-4);}
+h4{font-size: var(--font-size-4);}
+h5{font-size: var(--font-size-4);}
+
+h1 > .subtitle{
+    font-size: 21.48px;
+    padding: 2vh 6vw;
+}
+
+h1{
+    color: var(--color-soft-black);
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-headings)
+}
+
+/* Normal text style(including code) */
+p, pre, ol, ul, table, code{
+    color: #444;
+    font-size: var(--font-size-4);
+    font-family: var(--font-normal)
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+
+h2 {
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+
+
+p {
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+li {
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+
+/* Better anchor tags */
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: var(--color-secondary);
+}
+
+/* Force footer to bottom and center */
+#postamble{
+    text-align: center;
+    width: 100%;
+}
+
+#postamble > p{
+    display: inline;
+}
+
+.title{
+   padding: 4vh 35vw; /* vh: controls up-down of text, vw: controls left-right of title*/
+}
+
+
+/* Responsive images */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive code blocks and tables
+pre, .outline-text-2, .outline-text-3, outline-text-4{
+    max-width: 100%;
+    overflow-x: auto;
+}*/
+
+/* Code */
+pre{
+    margin: 1rem;
+    background-color: #EEE;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-family: 'Ubuntu Mono';
+    font-size: var(--font-size-small) !important;
+}
