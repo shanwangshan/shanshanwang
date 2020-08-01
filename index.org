@@ -8,9 +8,9 @@
 
 
 #+attr_html: :width 200px
-#+ATTR_HTML: :style float:right;margin:10px 200px 40px 80px;
+#+ATTR_HTML: :style float:right;margin:10px 100px 50px 50px;
 #+ATTR_HTML::alt image
-[[./my.png]]
+[[file:my_.JPG][file:my.JPG]]
 
 #+html: <p align="right"><a href="https://scholar.google.com/citations?user=K8aK11cAAAAJ&hl=en"><img src="google_scholar.png" width=40" height="70"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://github.com/shanwangshan"><img src="github.png" width=40" height="70"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/wangshanshan/"><img src="linkedin.png" width=40" height="70"></a></p>
 
