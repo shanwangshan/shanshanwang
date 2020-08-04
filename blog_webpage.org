@@ -1,0 +1,59 @@
+#+TITLE: Notes about Emacs
+#+AUTHOR: Shanshan Wang
+ # #+DATE: 02.08.2020
+#+EMAIL: shanshan.wang@tuni.fi
+#+OPTIONS: toc:nil
+
+* Install the emacs
+#+BEGIN_SRC <language> <switches> <header arguments>
+ brew install emacs-plus@27 [options]
+#+END_SRC
+* Some commonly used keyboard shortcut in emacs
+
+| Operations                | Commands   |
+|---------------------------+------------|
+| copy                      | ~M-w~      |
+| cut                       | ~C-w~      |
+| undo                      | ~C-x-u~    |
+| select                    | ~C-space~  |
+| paste                     | ~C-y~      |
+| save                      | ~C-x-C-s~  |
+| delete forward            | ~M-D~      |
+| delete backward           | ~M-delete~ |
+| go to line number         | ~M-g-g~    |
+|---------------------------+------------|
+|---------------------------+------------|
+|---------------------------+------------|
+| split the window          | ~C-x-3~    |
+| export to                 | ~C-c-C-e~  |
+| go to the end of the line | ~C-e~      |
+| shift to another window   | ~C-x-o~    |
+| show all the buffers      | ~C-x-b~    |
+| go to the next buffer     | ~C-x- ->~  |
+|---------------------------+------------|
+
+~M~: stands for the ~alt/option~ button
+
+~C~: stands for the ~control~ button
+
+* Useful commands for Python
+
+~C-c-C-c~: send the full python script to python buffer
+
+~M-x-run-python~: select the segments to the python buffer used for debugging. Then use ~C-c-C-c~ to run it.
+
+
+~C- up-arrow~: in *python* buffer to see the history of commnads
+
+~C-down-arrow~: in python file will move the cursor faster, skips the blank spaces
+
+~C-c-C-d~: in python file to show the documentation
+
+~M-x-my-clear~: clears the history in ipython shell where ~my-clear~ is the predefined function in the /init.org/ file shown as below.
+
+#+BEGIN_SRC <language> <switches> <header arguments>
+ (defun my-clear ()
+  (interactive)
+  (let ((comint-buffer-maximum-size 0))
+    (comint-truncate-buffer)))
+#+END_SRC
