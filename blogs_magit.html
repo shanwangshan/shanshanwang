@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-08-04 Tue 12:05 -->
+<!-- 2020-08-04 Tue 17:39 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Notes on Magit</title>
@@ -243,16 +243,64 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">Notes on Magit</h1>
-<ol class="org-ol">
-<li>Firstly, one need to stage the files by pressing <code>s</code></li>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org0c88bbf">1. Init magit</a></li>
+<li><a href="#org8f7b6b6">2. Push to git</a></li>
+</ul>
+</div>
+</div>
 
-<li>Then, commit staged files by pressing <code>c</code> and finish it by <code>C-c-C-c</code></li>
+<div id="outline-container-org0c88bbf" class="outline-2">
+<h2 id="org0c88bbf"><span class="section-number-2">1</span> Init magit</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>create an empty folder in the local machine</li>
+<li>type <code>M-x-magit-init</code></li>
+<li>add <i>.org</i> file or some other files in the folder and fill it whatever</li>
+<li>create a repo in github and copy the link</li>
+</ul>
 
-<li>Lastly, push it by pressing <code>P-p</code>.</li>
-</ol>
+
+<div class="figure">
+<p><img src="./9.png" alt="9.png" />
+</p>
+</div>
+
+<ul class="org-ul">
+<li>open the git buffer in local machine and press <code>?</code></li>
+</ul>
+
+<div class="figure">
+<p><img src="./10.png" alt="10.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>find the remoting function</li>
+<li>give it a name as origin and add the copied link</li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="outline-container-org8f7b6b6" class="outline-2">
+<h2 id="org8f7b6b6"><span class="section-number-2">2</span> Push to git</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li>one need to stage the files by pressing s</li>
+<li>commit staged files by pressing c-c and finish it by C-c-C-c</li>
+<li>push it by pressing P-p.</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
-<hr><footer><a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html"><img alt="Creative Commons License" style="border-width:0" src="https://www.gnu.org/graphics/lgplv3-with-text-95x42.png" /></a><br />This <a href="https://github.com/shanwangshan/my_webpage">work</a> is licensed under a <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.</a><br />The stylesheet is modified from <a rel="license" href="https://github.com/jessekelly881/Imagine">Imagine.</a></a></footer>
+<p class="author">Author: ShanShan Wang</p>
+<p class="date">Created: 2020-08-04 Tue 17:39</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
