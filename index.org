@@ -31,6 +31,7 @@ I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from
 * Blogs
   -  [[file:blog_webpage.org][Notes on Emacs]]
 
+
 #+begin_src emacs-lisp :results output :exports results
   (setq org-html-postamble "<hr><footer><a rel=\"\license\" href=\"https://www.gnu.org/licenses/gpl-3.0.html\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://www.gnu.org/graphics/lgplv3-with-text-95x42.png\" /></a><br />This <a href=\"https://github.com/shanwangshan/my_webpage\">work</a> is licensed under a <a rel=\"license\" href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</a><br />The stylesheet is modified from <a rel=\"license\" href=\"https://github.com/jessekelly881/Imagine\">Imagine.</a></a></footer>")
 (setq org-export-html-preamble nil)

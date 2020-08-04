@@ -57,3 +57,14 @@
   (let ((comint-buffer-maximum-size 0))
     (comint-truncate-buffer)))
 #+END_SRC
+
+* Basics on using Magit
+
+
+[[file:blogs_magit.org][Notes on Magit]]
+
+* Basics on linking files to another
+
+ * open the to-be-linked file and press ~C-c-l~
+ * write the description for the to-be-linked file
+ * go to the main file and press ~C-c-C-l~
