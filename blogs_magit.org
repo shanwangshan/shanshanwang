@@ -1,0 +1,21 @@
+#+TITLE: Notes on Magit
+
+* Init magit
+ * create an empty folder in the local machine
+ * type ~M-x-magit-init~
+ * add /.org/ file or some other files in the folder and fill it whatever
+ * create a repo in github and copy the link
+# #+attr_html: :width 850px
+[[./9.png]]
+
+ * open the git buffer in local machine and press ~?~
+[[./10.png]]
+ * find the remoting function
+ * give it a name as origin and add the copied link
+
+
+
+* Push to git
+ *  one need to stage the files by pressing s
+ *  commit staged files by pressing c-c and finish it by C-c-C-c
+ *  push it by pressing P-p.
