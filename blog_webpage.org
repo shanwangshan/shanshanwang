@@ -5,32 +5,35 @@
 #+OPTIONS: toc:nil
 
 * Install the emacs
-#+BEGIN_SRC <language> <switches> <header arguments>
- brew install emacs-plus@27 [options]
+#+BEGIN_SRC sh
+   brew install emacs-plus@27 [options]
 #+END_SRC
 * Some commonly used keyboard shortcut in emacs
 
-| Operations                | Commands   |
-|---------------------------+------------|
-| copy                      | ~M-w~      |
-| cut                       | ~C-w~      |
-| undo                      | ~C-x-u~    |
-| select                    | ~C-space~  |
-| paste                     | ~C-y~      |
-| save                      | ~C-x-C-s~  |
-| delete forward            | ~M-D~      |
-| delete backward           | ~M-delete~ |
-| go to line number         | ~M-g-g~    |
-|---------------------------+------------|
-|---------------------------+------------|
-|---------------------------+------------|
-| split the window          | ~C-x-3~    |
-| export to                 | ~C-c-C-e~  |
-| go to the end of the line | ~C-e~      |
-| shift to another window   | ~C-x-o~    |
-| show all the buffers      | ~C-x-b~    |
-| go to the next buffer     | ~C-x- ->~  |
-|---------------------------+------------|
+| Operations                      | Commands   |
+|---------------------------------+------------|
+| copy                            | ~M-w~      |
+| cut                             | ~C-w~      |
+| undo                            | ~C-x-u~    |
+| select                          | ~C-space~  |
+| paste                           | ~C-y~      |
+| save                            | ~C-x-C-s~  |
+| delete forward                  | ~M-D~      |
+| delete backward                 | ~M-delete~ |
+| go to line number               | ~M-g-g~    |
+|---------------------------------+------------|
+|---------------------------------+------------|
+|---------------------------------+------------|
+| split the window                | ~C-x-3~    |
+| export to                       | ~C-c-C-e~  |
+| go to the end of the line       | ~C-e~      |
+| shift to another window         | ~C-x-o~    |
+| show all the buffers            | ~C-x-b~    |
+| go to the next buffer           | ~C-x- ->~  |
+| kill a buffer                   | ~C-x-k~    |
+| create ordered numbering list   | ~M-enter~  |
+| open a link inside the org file | ~C-c-C-o~  |
+|---------------------------------+------------|
 
 ~M~: stands for the ~alt/option~ button
 
@@ -51,7 +54,7 @@
 
 ~M-x-my-clear~: clears the history in ipython shell where ~my-clear~ is the predefined function in the /init.org/ file shown as below.
 
-#+BEGIN_SRC <language> <switches> <header arguments>
+#+BEGIN_SRC emacs-lisp
  (defun my-clear ()
   (interactive)
   (let ((comint-buffer-maximum-size 0))
@@ -68,3 +71,21 @@
  * open the to-be-linked file and press ~C-c-l~
  * write the description for the to-be-linked file
  * go to the main file and press ~C-c-C-l~
+* Some common commands in Puhti
+ * login to Puhti
+#+BEGIN_SRC sh
+   ssh username@puhti.csc.fi
+ #+END_SRC
+ * check the workpaces in a folder (how many spaces taken by each folder)
+#+BEGIN_SRC sh
+  du -sh *
+ #+END_SRC
+
+ * check one's own workspace under a folder in Puhti
+#+BEGIN_SRC
+  csc-workspaces
+ #+END_SRC
+ * run job in the interactivate way
+#+BEGIN_SRC
+  srun --ntasks=1 --time=00:15:00 --gres=gpu:v100:1 --mem=1G --pty --account=asignal --partition=gputest bash
+#+END_SRC

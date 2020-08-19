@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-08-04 Tue 15:30 -->
+<!-- 2020-08-18 Tue 22:33 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Notes about Emacs</title>
@@ -244,17 +244,17 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">Notes about Emacs</h1>
 
-<div id="outline-container-orgfdbe9b9" class="outline-2">
-<h2 id="orgfdbe9b9"><span class="section-number-2">1</span> Install the emacs</h2>
+<div id="outline-container-org773eaa3" class="outline-2">
+<h2 id="org773eaa3"><span class="section-number-2">1</span> Install the emacs</h2>
 <div class="outline-text-2" id="text-1">
 <div class="org-src-container">
-<pre class="src src-<language>">brew install emacs-plus@27 [options]
+<pre class="src src-sh">brew install emacs-plus@27 [options]
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org1729e76" class="outline-2">
-<h2 id="org1729e76"><span class="section-number-2">2</span> Some commonly used keyboard shortcut in emacs</h2>
+<div id="outline-container-org1cea42f" class="outline-2">
+<h2 id="org1cea42f"><span class="section-number-2">2</span> Some commonly used keyboard shortcut in emacs</h2>
 <div class="outline-text-2" id="text-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -346,6 +346,21 @@ for the JavaScript code in this tag.
 <td class="org-left">go to the next buffer</td>
 <td class="org-left"><code>C-x- -&gt;</code></td>
 </tr>
+
+<tr>
+<td class="org-left">kill a buffer</td>
+<td class="org-left"><code>C-x-k</code></td>
+</tr>
+
+<tr>
+<td class="org-left">create ordered numbering list</td>
+<td class="org-left"><code>M-enter</code></td>
+</tr>
+
+<tr>
+<td class="org-left">open a link inside the org file</td>
+<td class="org-left"><code>C-c-C-o</code></td>
+</tr>
 </tbody>
 </table>
 
@@ -359,8 +374,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgc702c5f" class="outline-2">
-<h2 id="orgc702c5f"><span class="section-number-2">3</span> Useful commands for Python</h2>
+<div id="outline-container-org7bbe54f" class="outline-2">
+<h2 id="org7bbe54f"><span class="section-number-2">3</span> Useful commands for Python</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 <code>C-c-C-c</code>: send the full python script to python buffer
@@ -388,7 +403,7 @@ for the JavaScript code in this tag.
 </p>
 
 <div class="org-src-container">
-<pre class="src src-<language>">(defun my-clear ()
+<pre class="src src-emacs-lisp">(defun my-clear ()
  (interactive)
  (let ((comint-buffer-maximum-size 0))
    (comint-truncate-buffer)))
@@ -397,8 +412,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org25417c0" class="outline-2">
-<h2 id="org25417c0"><span class="section-number-2">4</span> Basics on using Magit</h2>
+<div id="outline-container-org3bfc7e6" class="outline-2">
+<h2 id="org3bfc7e6"><span class="section-number-2">4</span> Basics on using Magit</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 <a href="blogs_magit.html">Notes on Magit</a>
@@ -406,8 +421,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org38bef06" class="outline-2">
-<h2 id="org38bef06"><span class="section-number-2">5</span> Basics on linking files to another</h2>
+<div id="outline-container-orga54812b" class="outline-2">
+<h2 id="orga54812b"><span class="section-number-2">5</span> Basics on linking files to another</h2>
 <div class="outline-text-2" id="text-5">
 <ul class="org-ul">
 <li>open the to-be-linked file and press <code>C-c-l</code></li>
@@ -416,10 +431,42 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
+<div id="outline-container-orgab95183" class="outline-2">
+<h2 id="orgab95183"><span class="section-number-2">6</span> Some common commands in Puhti</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>login to Puhti</li>
+</ul>
+<div class="org-src-container">
+<pre class="src src-sh">ssh username@puhti.csc.fi
+</pre>
+</div>
+<ul class="org-ul">
+<li>check the workpaces in a folder (how many spaces taken by each folder)</li>
+</ul>
+<div class="org-src-container">
+<pre class="src src-sh">du -sh *
+</pre>
+</div>
+
+<ul class="org-ul">
+<li>check one's own workspace under a folder in Puhti</li>
+</ul>
+<pre class="example">
+csc-workspaces
+</pre>
+<ul class="org-ul">
+<li>run job in the interactivate way</li>
+</ul>
+<pre class="example">
+srun --ntasks=1 --time=00:15:00 --gres=gpu:v100:1 --mem=1G --pty --account=asignal --partition=gputest bash
+</pre>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Shanshan Wang</p>
-<p class="date">Created: 2020-08-04 Tue 15:30</p>
+<p class="date">Created: 2020-08-18 Tue 22:33</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
