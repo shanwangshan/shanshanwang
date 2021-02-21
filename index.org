@@ -6,7 +6,8 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 
-#+attr_html: :width 200px
+
+#+attr_html: :width 140px
 #+ATTR_HTML: :style float:right;margin:10px 100px 10px 10px;
 #+ATTR_HTML::alt image
 [[file:my_.JPG][file:my.JPG]]
@@ -16,6 +17,7 @@
 
 
 * Hey (你好)
+
 I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from [[https://www.tuni.fi/en][Tampere University]] . I am working in collaboration with Assitant Professor [[http://www.cs.tut.fi/~mesaros/index][Annamaria Mesaros]] and Professor [[http://www.cs.tut.fi/~tuomasv/][Tuomas Virtanen]]. During my master studies, I was working on speech separation in colloboration with Eriksholm Research Center, Oticon hearing-aids manufacturer on kuuloapu projects. My research interests include Audio Signal Processing, Deep Learning and Data Science.
 
 * Updates
@@ -34,6 +36,7 @@ I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from
 
 
 * Blogs
+
   -  [[file:blog_webpage.org][Notes on Emacs]]
 
 

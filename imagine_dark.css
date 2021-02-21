@@ -118,7 +118,9 @@ a:hover{
 }
 
 .title{
-   padding: 4vh 35vw; /* vh: controls up-down of text, vw: controls left-right of title*/
+
+    text-align: center
+   /* padding: 4vh 35vw; */ /* vh: controls up-down of text, vw: controls left-right of title*/
 }
 
 
