@@ -18,10 +18,11 @@
 
 * Hey (您好!)
 
-I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from [[https://www.tuni.fi/en][Tampere University]] . I am working in collaboration with Assitant Professor [[http://www.cs.tut.fi/~mesaros/index][Annamaria Mesaros]] and Professor [[http://www.cs.tut.fi/~tuomasv/][Tuomas Virtanen]]. During my master studies, I was working on speech separation in colloboration with Eriksholm Research Center, Oticon hearing-aids manufacturer on kuuloapu projects. My research interests include Audio Signal Processing, Deep Learning and Data Science.
+I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from [[https://www.tuni.fi/en][Tampere University]] . I am working in collaboration with Assitant Professor [[http://www.cs.tut.fi/~mesaros/index][Annamaria Mesaros]] and Professor [[http://www.cs.tut.fi/~tuomasv/][Tuomas Virtanen]]. My research interests include Audio-Visual feature learning, Self-Supervised Learning, Audio Signal Processing, and Deep Learning. During my master studies, I worked on speech separation in colloboration with Eriksholm Research Center, Oticon hearing-aids manufacturer on kuuloapu projects. I am open for all kinds of possible collaboration.
 
 * Updates
 
+ - I am actively looking for internships. Please feel free to contact me if you think I am the right person you are looking for.
  - Selected as one of the ten finalists of the [[https://eusipco2021.org/3-minute-thesis/][3 Minute Thesis (3MT)]] contest, check my PhD thesis contest video [[https://www.youtube.com/watch?v=GDbbfBA62t4&t=13s&ab_channel=ShanshanWang][Youtube link]].
  - One of the coordinators in DCASE2021 task1 subtaskb, [[http://dcase.community/challenge2021/task-acoustic-scene-classification][DCASE2021]]
  - /02.2020 - present/ started PhD studies at Tampere University
@@ -29,6 +30,9 @@ I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from
  - /08.2017 - 12.2019/ master student at Tampere University
 
 * Publications
+
+ - /S. Wang, A. Politis, A. Mesaros and T. Virtanen, "Self-supervised learning of audio representations from audio-visual data using spatial alignment", Minor Revision in IEEE Journal of Selected Topics in Signal Processing (JSTSP), 2022/
+
 
  * /S. Wang, A. Mesaros, T. Heittola and T. Virtanen, "Audio-visual scene classification: analysis of DCASE 2021 Challenge submissions", 2021/
 
