@@ -43,6 +43,8 @@ I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from
  - /S. Wang, G. Naithani, and T. Virtanen, “Low-latency deep clustering for speech separation,” in Proc. ICASSP, 2019./ [[https://github.com/shanwangshan/Low-latency_deep_clustering_for_speech_separation][*Code*]], [[https://www.youtube.com/watch?v=3tGHxScf6As&t=1s&ab_channel=ShanshanWang][Youtube link]].
 
 * Master thesis
+
   Here is the link for my master thesis, [[https://core.ac.uk/download/pdf/280342574.pdf][master thesis]]
 * CV
+
   Please find my academic cv here, [[https://drive.google.com/file/d/10ngKZmPPqbgQLynZbFd0n3aSuhEHTaWB/view?usp=sharing][CV]]
