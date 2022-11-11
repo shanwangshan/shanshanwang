@@ -10,7 +10,7 @@
 #+attr_html: :width 180px
 #+ATTR_HTML: :style float:left;margin:-60px 80px 10px -20px;
 #+ATTR_HTML::alt image
-[[file:my_.JPG][file:my.JPG]]
+[[file:my_big.JPG][file:my.JPG]]
 
 \\
 \\
