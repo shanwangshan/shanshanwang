@@ -2,53 +2,105 @@
 #+OPTIONS: toc:nil num:nil html-style:nil
 #+HTML_HEAD: <base target="_blank">
 #+TITLE: Shanshan Wang (王珊珊)
-#+SUBTITLE: shanshan.wang@tuni.fi
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 
+#+html: <p align="center">&emsp;&emsp;<a href="https://scholar.google.com/citations?user=K8aK11cAAAAJ&hl=en"><img src="google_scholar.png" width=30" height="50"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://github.com/shanwangshan"><img src="github.png" width=30" height="50"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/wangshanshan/"><img src="linkedin.png" width=30" height="50"></a></p
 
-#+attr_html: :width 140px
-#+ATTR_HTML: :style float:right;margin:10px 100px 10px 10px;
+#+attr_html: :width 180px
+#+ATTR_HTML: :style float:left;margin:-60px 80px 10px -20px;
 #+ATTR_HTML::alt image
 [[file:my_.JPG][file:my.JPG]]
 
-
-#+html: <p align="center">&emsp;&emsp;<a href="https://scholar.google.com/citations?user=K8aK11cAAAAJ&hl=en"><img src="google_scholar.png" width=30" height="50"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://github.com/shanwangshan"><img src="github.png" width=30" height="50"></a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/wangshanshan/"><img src="linkedin.png" width=30" height="50"></a></p
-
-
+\\
+\\
 * Hey (您好!)
 
-I am a PhD student in [[http://arg.cs.tut.fi/][Audio Research Group]] (ARG) from [[https://www.tuni.fi/en][Tampere University]] . I am working in collaboration with Assitant Professor [[http://www.cs.tut.fi/~mesaros/index][Annamaria Mesaros]] and Professor [[http://www.cs.tut.fi/~tuomasv/][Tuomas Virtanen]]. My research interests include Audio-Visual feature learning, Self-Supervised Learning, Audio Signal Processing, and Deep Learning. During my master studies, I worked on speech separation in colloboration with Eriksholm Research Center, Oticon hearing-aids manufacturer on kuuloapu projects. I am open for all kinds of possible collaboration.
+I am a PhD student in [[https://research.tuni.fi/machinelistening/][Machine Listening]] and [[https://webpages.tuni.fi/arg/][Audio Research Group]](ARG)
+from [[https://www.tuni.fi/en][Tampere University]]. I am working in collaboration with assistant
+professor [[http://www.cs.tut.fi/~mesaros/index][Annamaria Mesaros]] and professor [[http://www.cs.tut.fi/~tuomasv/][Tuomas Virtanen]]. My research
+interests include audio-visual feature learning, self-supervised
+learning, audio signal processing, and general deep Learning. My
+complete academic information can be found in [[https://drive.google.com/file/d/10ngKZmPPqbgQLynZbFd0n3aSuhEHTaWB/view][curriculum vitae.]]\\
+
+# During my master studies, I worked on speech separation in collaboration with Eriksholm Research Center, Oticon hearing-aids manufacturer on kuuloapu projects. I am open for all kinds of possible collaboration.
 
 * Updates
 
- - I am actively looking for internships. Please feel free to contact me if you think I am the right person you are looking for.
- - Selected as one of the ten finalists of the [[https://eusipco2021.org/3-minute-thesis/][3 Minute Thesis (3MT)]] contest, check my PhD thesis contest video [[https://www.youtube.com/watch?v=GDbbfBA62t4&t=13s&ab_channel=ShanshanWang][Youtube link]].
- - One of the coordinators in DCASE2021 task1 subtaskb, [[http://dcase.community/challenge2021/task-acoustic-scene-classification][DCASE2021]]
- - /02.2020 - present/ started PhD studies at Tampere University
- - /04.2018 - 12.2019/ worked as research assistant in ARG
- - /08.2017 - 12.2019/ master student at Tampere University
+ - I am actively looking for internships. Please feel free to contact
+   me if you think I am the right person you are looking for
+
+
+ - /23.10, 2022/, presented our recent journal work in ECCV2022
+   workshop [[https://av4d.org/][AV4D: Visual Learning of Sounds in Spaces]]
+
+
+ - Served as a reviewer for [[https://dcase.community/challenge2022/index][DCASE2022]],  ECCV2022 workshop [[https://geometry.stanford.edu/voli/][VOLI]]
+
+
+ - /23.08 - 27.08, 2021/, selected as one of the ten finalists of the
+   [[https://eusipco2021.org/3-minute-thesis/][3 Minute Thesis (3MT)]] contest, check my PhD thesis contest video
+   [[https://www.youtube.com/watch?v=GDbbfBA62t4&t=13s&ab_channel=ShanshanWang][Youtube link]].
+
+
+ - /01.03 - 01.07,2021/, one of the coordinators in DCASE2021 task1
+   subtaskb, [[http://dcase.community/challenge2021/task-acoustic-scene-classification][DCASE2021]]
+
+
+ - /02.2020 - present/, PhD student at Tampere University
+
+
+ - /04.2018 - 12.2019/, worked as research assistant in ARG
+
+
+ - /08.2017 - 12.2019/, master student at Tampere University
+
+
+ - /09.2013 - 06.2017/, bachelor student at China University of
+   Petroleum (East China)
 
 * Publications
 
- - /S. Wang, A. Politis, A. Mesaros and T. Virtanen, "Self-supervised learning of audio representations from audio-visual data using spatial alignment", Minor Revision in IEEE Journal of Selected Topics in Signal Processing (JSTSP), 2022/
+
+ - /S. Wang, S. Tripathy, and A. Mesaros, "Self-supervised learning of/
+   /audio representations using angular contrastive loss", submitted/
+   /in 2023 IEEE International Conference on Acoustics, Speech, and Signal
+   Processing (ICASSP 2023):/ [[https://github.com/shanwangshan/Self_supervised_ACL][Code]], [[https://arxiv.org/abs/2211.05442][Paper]] .
 
 
- * /S. Wang, A. Mesaros, T. Heittola and T. Virtanen, "Audio-visual scene classification: analysis of DCASE 2021 Challenge submissions", 2021/
+ - /S. Wang, A. Politis, A. Mesaros and T. Virtanen, "Self-supervised/
+   /learning of audio representations from audio-visual data using
+   spatial alignment", in ECCV2022 workshop:/ [[https://av4d.org/][Workshop link]]
 
 
- - /S. Wang, G. Naithani, A Politis, and T. Virtanen, "Deep neural network Based Low-latency Speech Separation with Asymmetric analysis-Synthesis Window Pair", EUSIPCO, 2021./ *[[https://github.com/shanwangshan/asymmetric_window][code]]*, [[https://youtu.be/ey_oPEN7L20][Youtube link]].
+ - /S. Wang, A. Politis, A. Mesaros and T. Virtanen, "Self-supervised/
+   /learning of audio representations from audio-visual data using/
+   /spatial alignment", in IEEE Journal of Selected Topics in Signal
+   Processing (JSTSP), 2022:/ [[https://arxiv.org/abs/2206.00970][Paper]]
 
 
- * /S. Wang, A. Mesaros, T. Heittola and T. Virtanen, "A Curated Dataset of Urban Scenes for Audio-Visual Scene Analysis", in Proc.
-   ICASSP, 2021./ *[[https://github.com/shanwangshan/TAU-urban-audio-visual-scenes][code]]*, [[https://www.youtube.com/watch?v=89EwgWGXkCs&t=61s&ab_channel=ShanshanWang][Youtube link]].
+ - /S. Wang, A. Mesaros, T. Heittola and T. Virtanen, "Audio-visual/
+   /scene classification: analysis of DCASE 2021 Challenge
+   submissions", 2021:/ [[https://arxiv.org/abs/2105.13675][Paper]], [[https://www.youtube.com/watch?v=NAJErjrghhE][Youtube link]]
 
 
- - /S. Wang, G. Naithani, and T. Virtanen, “Low-latency deep clustering for speech separation,” in Proc. ICASSP, 2019./ [[https://github.com/shanwangshan/Low-latency_deep_clustering_for_speech_separation][*Code*]], [[https://www.youtube.com/watch?v=3tGHxScf6As&t=1s&ab_channel=ShanshanWang][Youtube link]].
+ - /S. Wang, G. Naithani, A Politis, and T. Virtanen, "Deep neural/
+   /network Based Low-latency Speech Separation with Asymmetric
+   analysis-Synthesis Window Pair", in EUSIPCO, 2021:/ [[https://arxiv.org/abs/2106.11794][Paper]], [[https://github.com/shanwangshan/asymmetric_window][Code]], [[https://youtu.be/ey_oPEN7L20][Youtube link]].
+
+
+ - /S. Wang, A. Mesaros, T. Heittola and T. Virtanen, "A Curated Dataset of Urban Scenes for Audio-Visual Scene Analysis," in Proc. ICASSP, 2021:/ [[https://arxiv.org/abs/2011.00030][Paper]], [[https://github.com/shanwangshan/TAU-urban-audio-visual-scenes][Code]], [[https://www.youtube.com/watch?v=89EwgWGXkCs&t=61s&ab_channel=ShanshanWang][Youtube link]].
+
+
+ - /S. Wang, G. Naithani, and T. Virtanen, “Low-latency deep
+   clustering for speech separation,” in Proc. ICASSP, 2019:/ [[https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8683437][Paper]], [[https://github.com/shanwangshan/Low-latency_deep_clustering_for_speech_separation][Code]], [[https://www.youtube.com/watch?v=3tGHxScf6As&t=1s&ab_channel=ShanshanWang][Youtube link]].
+
 
 * Master thesis
 
-  Here is the link for my master thesis, [[https://core.ac.uk/download/pdf/280342574.pdf][master thesis]]
-* CV
+  Graduation: 2019, [[https://core.ac.uk/download/pdf/280342574.pdf][Thesis]]
 
-  Please find my academic cv here, [[https://drive.google.com/file/d/10ngKZmPPqbgQLynZbFd0n3aSuhEHTaWB/view?usp=sharing][CV]]
+* Contacts
+
+Address: Tampere University, Hervanta Campus, Tietotalo, Room No: TE307\\
+Email: shanshan.wang@tuni.fi\\

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Share Tech Mono&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Share Tech Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courier Prime&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Slabo 27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Slabo 27px&display=swap');*/
 /* Variables. Feel free to edit these! */
 :root {
     --color-primary: #028090;
@@ -16,15 +16,15 @@
     --color-special-skyb: white;
 
     /*--font-normal: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman";*/
-    --font-normal: 'Slabo 27px', Shadows;
+    --font-normal: sans-serif;
     --font-headings: 'Roboto', cursive;
 
-    --font-size-1: 28.57px;
+    --font-size-1: 38.57px;
     --font-size-2: 26.86px;
     --font-size-3: 21.48px;
-    --font-size-4: 18.19px;
+    --font-size-4: 22.19px;
 
-    --font-size-small: 18px;
+    --font-size-small: 15px;
 }
 
 /* Selection color */
@@ -35,8 +35,8 @@
 
 /* Remove outer padding */
 html, body{
-
-    background-color: black;
+    background-image: url("./cool-background_cs.jpeg");
+    background-color: gray;
     margin: 10;
     padding: 10;
     color: grey;
@@ -45,8 +45,8 @@ html, body{
 /* Heading styles */
 h2, h3, h4, h5, h6{
     color: var(--color-primary);
-    margin: 0;
-    padding: 0;
+    margin: 1000;
+    padding: 1000;
     font-family: var(--font-headings)
 }
 
@@ -72,35 +72,41 @@ h1{
 
 /* Normal text style(including code) */
 p, pre, ol, ul, table, code{
-    color: grey;
+    color: papayawhip;
     font-size: var(--font-size-4);
     font-family: var(--font-normal)
     position: relative;
-    left: 200px;
+    left: 1%;
+    min-width: 10px;
+    max-width: 1350px;
     top: 10px;
+    line-height: 30px
 }
 
 h2 {
   position: relative;
-  left: 150px;
+  left: 10px;
   top: 10px;
 }
 
 
 p {
   position: relative;
-  left: 150px;
+  left: 50px;
   top: 10px;
+  font-family: var(--font-normal)
 }
 li {
   position: relative;
-  left: 150px;
+  left: 50px;
   top: 10px;
+  font-family: var(--font-normal)
 }
 
 /* Better anchor tags */
 a{
-    color: inherit;
+    color: skyblue;
+    text-decoration: none;
 }
 
 a:hover{
@@ -111,16 +117,18 @@ a:hover{
 #postamble{
     text-align: center;
     width: 100%;
+    font-size: var(--font-size-small)
 }
 
 #postamble > p{
     display: inline;
+    font-size: var(--font-size-small)
 }
 
 .title{
 
-    text-align: center
-   /* padding: 4vh 35vw; */ /* vh: controls up-down of text, vw: controls left-right of title*/
+    text-align: center;
+    left: 50%
 }
 
 
