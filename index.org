@@ -28,10 +28,6 @@ complete academic information can be found in [[https://drive.google.com/file/d/
 
 * Updates
 
- - I am actively looking for internships. Please feel free to contact
-   me if you think I am the right person you are looking for
-
-
  - /23.10, 2022/, presented our recent journal work in ECCV2022
    workshop [[https://av4d.org/][AV4D: Visual Learning of Sounds in Spaces]]
 
@@ -49,16 +45,6 @@ complete academic information can be found in [[https://drive.google.com/file/d/
 
 
  - /02.2020 - present/, PhD student at Tampere University
-
-
- - /04.2018 - 12.2019/, worked as research assistant in ARG
-
-
- - /08.2017 - 12.2019/, master student at Tampere University
-
-
- - /09.2013 - 06.2017/, bachelor student at China University of
-   Petroleum (East China)
 
 * Publications
 
