@@ -28,6 +28,9 @@ complete academic information can be found in [[https://drive.google.com/file/d/
 
 * Updates
 
+ - /12, 2023/, received Huawei award for best PhD publications
+
+
  - /14.04 - 31.07, 2023/, worked as an intern in Huawei, Finland
 
 
@@ -65,7 +68,7 @@ complete academic information can be found in [[https://drive.google.com/file/d/
 
  - /S. Wang, A. Politis, A. Mesaros and T. Virtanen, "Self-supervised/
    /learning of audio representations from audio-visual data using
-   spatial alignment", in ECCV2022 workshop:/ [[https://av4d.org/][Workshop link]].
+   spatial alignment", in ECCV2022 workshop:/ [[https://av4d.org/][Workshop link]], [[https://www.youtube.com/watch?v=pdRIznwovfs&ab_channel=ChanganChen][Youtube link]].
 
 
  - /S. Wang, A. Politis, A. Mesaros and T. Virtanen, "Self-supervised/
