@@ -28,6 +28,11 @@ complete academic information can be found in [[https://drive.google.com/file/d/
 
 * Updates
 
+
+ - /12.04 - 19.04, 2024/, will present our recent work in Seoul,
+   South Korea, [[https://2024.ieeeicassp.org/][ICASSP2024]]
+
+
  - /12, 2023/, received Huawei award for best PhD publications
 
 
@@ -35,7 +40,7 @@ complete academic information can be found in [[https://drive.google.com/file/d/
 
 
  - /04.06 - 10.06, 2023/, presented our recent work in Rhodes Island,
-   Greece, [[https://2023.ieeeicassp.org/][ICASSP2023]], hope to meet you in person
+   Greece, [[https://2023.ieeeicassp.org/][ICASSP2023]]
 
 
  - /23.10, 2022/, presented our recent journal work in ECCV2022
@@ -58,6 +63,12 @@ complete academic information can be found in [[https://drive.google.com/file/d/
 
 * Publications
 
+
+  - /S. Wang, S. Tripathy, T. Heittola, and A. Mesaros, "Positive and
+    negative sampling strategies for self-supervised learning on
+    audio-video data", in 2024 IEEE International Conference on Acoustics, Speech, and Signal
+   Processing workshop(ICASSP 2024):/ [[https://github.com/shanwangshan/positive-negative-sampling-strategy][Code]],
+   [[https://arxiv.org/abs/2402.02899][Paper]].
 
  - /S. Wang, S. Tripathy, and A. Mesaros, "Self-supervised learning of/
    /audio representations using angular contrastive loss",/
@@ -96,9 +107,9 @@ complete academic information can be found in [[https://drive.google.com/file/d/
 
 * Master thesis
 
-  Graduation: 11.2019, [[https://core.ac.uk/download/pdf/280342574.pdf][Thesis]]
+  Graduation: 12.2019, [[https://core.ac.uk/download/pdf/280342574.pdf][Thesis]]
 
 * Contacts
 
-Address: Tampere University, Hervanta Campus, Tietotalo, Room No: TF307\\
+Address: Tampere University, Hervanta Campus, Tietotalo, Room No: TF405\\
 Email: shanshan.wang@tuni.fi\\
