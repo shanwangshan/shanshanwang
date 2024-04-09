@@ -72,7 +72,7 @@ complete academic information can be found in [[https://drive.google.com/file/d/
     /negative sampling strategies for self-supervised learning on/
     /audio-video data", in 2024 IEEE International Conference on Acoustics, Speech, and Signal
    Processing workshop(ICASSP 2024):/ [[https://github.com/shanwangshan/positive-negative-sampling-strategy][Code]],
-   [[https://arxiv.org/abs/2402.02899][Paper]].
+   [[https://arxiv.org/abs/2402.02899][Paper]], [[https://drive.google.com/file/d/1wPAWMjmjaB6VylSaoD4pAOn9tL3tI4xT/view?usp=sharing][poster]].
 
  - /S. Wang, S. Tripathy, and A. Mesaros, "Self-supervised learning of/
    /audio representations using angular contrastive loss",/
